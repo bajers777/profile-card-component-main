@@ -20,7 +20,7 @@ Dark grayish blue: hsl(227, 10%, 46%)
 Dark gray: hsl(0, 0%, 59%)
 
 ## Typography
-
+font-family: 'Kumbh Sans', sans-serif;
 ### Body Copy
 
 - Font size (name and stats): 18px
