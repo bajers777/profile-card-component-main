@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background: 
+    url('images/bg-pattern-top.svg'),
+    url('images/bg-pattern-bottom.svg'), 
+    hsl(185, 75%, 39%);
+    background-position: top -4rem left -4rem, bottom -4rem right -4rem;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    flex-flow: column;
+    height: 30rem;
+    width: 80%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+}
+.card ul,li{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.card li{
+    flex-flow: column;
+    text-align: center;
+}
+.top-img-layer{
+    background: url('images/bg-pattern-card.svg');
+    height: 30%;
+}
+.middle-text-layer{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    height: 50%;
+    text-align: center;
+}
+.bottom-text-layer{
+    height: 20%;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+.user-image{
+    position: absolute;
+    top: 50%;
+}
