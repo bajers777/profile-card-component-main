@@ -8,33 +8,16 @@ body{
     justify-content: center;
     position: relative;
     background-color: hsl(185, 75%, 39%);
-    /* background: 
+    background: 
     url('images/bg-pattern-top.svg'),
-    url('images/bg-pattern-bottom.svg'), 
+    /* url('images/bg-pattern-bottom.svg'),  */
     hsl(185, 75%, 39%);
-    background-position: top -10rem left -10rem, bottom -10rem right -10rem;
+    background-position: top -15rem left -5rem;
     background-repeat: no-repeat;
-    background-size: 100%; */
+    background-size: contain;
     height: 100vh;
 }
-.container-img-top-layer{
-    position: absolute;
-    top: -25%;
-    left: -25%;
-    width: 100%;
-    height: auto;
-}
-.container-img-bottom-layer{
-    position: absolute;
-    bottom: 1;
-    right: 1;
-    width: 100%;
-    height: auto;
-}
-.container-img-bottom-layer img, .container-img-top-layer img{
-    width: 100%;
-    height: auto;
-}
+
 .card{
     z-index: 1;
     display: flex;
