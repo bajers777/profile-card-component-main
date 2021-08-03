@@ -2,6 +2,17 @@ body{
     margin: 0;
     font-family: 'Kumbh Sans', sans-serif;
 }
+@media screen and (min-height: 375px) and (max-height: 665px){
+    .container{
+        background: 
+        url('images/bg-pattern-top.svg'),
+        url('images/bg-pattern-bottom.svg'), 
+        hsl(185, 75%, 39%);
+        background-position: top left, bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
 .container{
     display: flex;
     align-items: center;
@@ -10,9 +21,9 @@ body{
     background-color: hsl(185, 75%, 39%);
     background: 
     url('images/bg-pattern-top.svg'),
-    /* url('images/bg-pattern-bottom.svg'),  */
+    url('images/bg-pattern-bottom.svg'), 
     hsl(185, 75%, 39%);
-    background-position: top -15rem left -5rem;
+    background-position: top -25rem left -8rem, bottom -25rem right -8rem;
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
